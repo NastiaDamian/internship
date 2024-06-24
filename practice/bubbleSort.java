@@ -1,3 +1,5 @@
+package practice;
+
 public class bubbleSort {
     public static void main(String[] args) {
         int[] array = {12, 5, 46, 8, 1, 4, 100};
