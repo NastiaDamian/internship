@@ -1,12 +1,12 @@
-package practice;
+package practice.sorting;
+
+import java.util.Arrays;
 
 public class bubbleSort {
     public static void main(String[] args) {
         int[] array = {12, 5, 46, 8, 1, 4, 100};
         sorting(array);
-        System.out.println("Sorted array: ");
-        for (int i = 0; i < array.length; i++)
-            System.out.println(array[i] + " ");
+        System.out.println("Sorted array: " + Arrays.toString(array));
     }
 
     public static void sorting(int[] array) {
